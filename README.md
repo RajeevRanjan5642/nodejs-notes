@@ -7,3 +7,5 @@
 - Now, JavaScript can talk to native machine because of C++.
 - Can create web servers in JavaScript language.
 - It is open-source and cross-platform.
+- Doesn't support DOM manipulation.
+
