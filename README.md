@@ -22,4 +22,16 @@
   - The blocking requests are sent to the Thread Pool where a thread is assigned to each blocking request (no. of threads are limited usually 4) to process it by accessing external resources such as database, file system, compute etc.
   - After processing the request, the response is sent to the Event Loop which in turn sends the response to client.
 
+## How to create an http server?
+
+    const http = require('http');
+
+    const server = http.createServer((req,res)=>{
+      res.end("Hello from server !!");
+    });
+    const port = 8000;
+    server.listen(port,()=>{
+      console.log(`The server is running at port ${port}`);
+    })
+
 
