@@ -37,6 +37,11 @@
 ## URL
 - URL stands for Uniform Resource Locator.
 - protocol-domain-pathname-query
+- req.url gives the path.
+- If you want to parse your request url, you need to import url package.
+
+      const url = require('url')
+      const myUrl = url.parse(req.url,true)
 
 ## HTTP Methods
 - GET : used to retrieve some data from the server.
@@ -44,5 +49,25 @@
 - PUT : Replaces the entire resource with the new one provided in the rquest.If the resource doesn't exist, it can create it.
 - PATCH : Partially updates the resource. It only changes the fields provided in the request, leaving the rest unchanged.
 - DELETE : deletes the specified resource.
+
+## Express
+- A fast and minimalist web framework for Node.js.
+- There's a lot of built-in things in Express.
+- It makes our code look clean and readable.
+- It makes the developer job a bit easy.
+
+- ### How to built an Express App
+
+      const express = require('express');
+      const app = express();
+
+      app.get('/',(req,res)=>{
+          res.send('Hello from express app !!');
+      });
+
+      const port = 8000;
+      app.listen(port,()=>{
+          console.log(`Server is listening at port ${port}`);
+      })
 
 
