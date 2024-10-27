@@ -36,6 +36,6 @@
 
 ## URL
 - URL stands for Uniform Resource Locator.
-- <protocol><domain><pathname><query-string>
+- protocol-domain-pathname-query
 
 
