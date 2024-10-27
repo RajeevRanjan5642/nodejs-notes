@@ -34,4 +34,8 @@
       console.log(`The server is running at port ${port}`);
     })
 
+## URL
+- URL stands for Uniform Resource Locator.
+- <protocol><domain><pathname><query-string>
+
 
