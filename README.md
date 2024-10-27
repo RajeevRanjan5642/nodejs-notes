@@ -56,7 +56,7 @@
 - It makes our code look clean and readable.
 - It makes the developer job a bit easy.
 
-- ### How to built an Express App
+- ### How to build an Express App
 
       const express = require('express');
       const app = express();
