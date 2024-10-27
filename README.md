@@ -70,4 +70,20 @@
           console.log(`Server is listening at port ${port}`);
       })
 
+## How Versioning Works in NodeJS?
+
+4.18.3 -> major.minor.patch
+
+- major : major/breaking update
+- minor : new features or critical security fixes (recommended), backward compatible
+- patch : bug fixes (optional), backward compatible
+
+- ### Version Modifiers (^,~)
+  
+  - ^: This allows the automatic installation of all future minor and patch versions without changing the major version. for e.g. "lodash":"^4.17.5". This configuration permits updates to any 4.x.x version up to, but not including , 5.0.0.
+    
+  - ~: This is more restrictive, allowing only patch updates within a minor version.
+
+
+
 
