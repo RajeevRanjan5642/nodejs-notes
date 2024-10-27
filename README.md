@@ -44,6 +44,5 @@
 - PUT : Replaces the entire resource with the new one provided in the rquest.If the resource doesn't exist, it can create it.
 - PATCH : Partially updates the resource. It only changes the fields provided in the request, leaving the rest unchanged.
 - DELETE : deletes the specified resource.
-- 
 
 
