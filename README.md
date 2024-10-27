@@ -8,4 +8,5 @@
 - Can create web servers in JavaScript language.
 - It is open-source and cross-platform.
 - Doesn't support DOM manipulation.
+- NodeJS is built on Google Chrome's V8 engine which is used to develop I/O intensive web applications such as video streaming, single page applications, online chat applications etc.
 
