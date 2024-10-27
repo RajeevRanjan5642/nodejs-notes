@@ -83,6 +83,14 @@
   - ^: This allows the automatic installation of all future minor and patch versions without changing the major version. for e.g. "lodash":"^4.17.5". This configuration permits updates to any 4.x.x version up to, but not including , 5.0.0.
     
   - ~: This is more restrictive, allowing only patch updates within a minor version.
+ 
+## What is REST API?
+
+Rules/Standards
+
+1. It is based on Client-Server Architecture. Client and server are different entities and work in isolation.
+2. Always respect all HTTP methods. Use the appropriate method to handle requests. 
+
 
 
 
