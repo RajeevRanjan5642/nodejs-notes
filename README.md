@@ -103,6 +103,11 @@ Rules/Standards
   
 - Always use X before a custom a custom header.
 
+## HTTP Status Codes
+
+- It indicates whether an http request has been successfully completed.
+- 404 : Not Found
+
 
 
 
