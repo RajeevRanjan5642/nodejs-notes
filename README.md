@@ -89,7 +89,19 @@
 Rules/Standards
 
 1. It is based on Client-Server Architecture. Client and server are different entities and work in isolation.
-2. Always respect all HTTP methods. Use the appropriate method to handle requests. 
+2. Always respect all HTTP methods. Use the appropriate method to handle requests.
+
+## Middleware
+
+
+
+## HTTP Headers
+- HTTP Headers represent the meta data associated with API request and response.
+- To create a custom header:
+
+      req.setHeader("X-myName","abc");
+  
+- Always use X before a custom a custom header.
 
 
 
