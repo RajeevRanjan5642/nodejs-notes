@@ -106,8 +106,20 @@ Rules/Standards
 ## HTTP Status Codes
 
 - It indicates whether an http request has been successfully completed.
+- Information Responses (100-199)
+- Successful Responses (200-299)
+- Redirection messages (300-399)
+- Client error Responses (400-499)
+- Server error Responses (500-599)
+
+- 200 : OK
+- 201 : Created (POST,PUT)
+
+- 400 : Bad Request
+- 401 : Unauthorized
 - 404 : Not Found
 
+- 500 : Internal Server Error
 
 
 
