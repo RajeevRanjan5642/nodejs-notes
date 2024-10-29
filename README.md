@@ -122,6 +122,13 @@ Rules/Standards
 
 - 500 : Internal Server Error
 
+## MongoDB
+- No-SQL Document Based Database.
+- Strong Support for Aggregation Pipes.
+- Works on BSON format (Binary JSON).
+- Best for Node Applications.
+
+- Collections (Table in MySQL) -> Document (Record in MySQL)
 
 
 
