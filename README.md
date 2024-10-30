@@ -128,7 +128,9 @@ Rules/Standards
 - Works on BSON format (Binary JSON).
 - Best for Node Applications.
 
-- Collections (Table in MySQL) -> Document (Record in MySQL)
+- Collections (Tables in MySQL) -> Document (Records in MySQL)
 
-
-
+## Templating engines for server side rendering
+1. ejs : embedded javascript
+2. pug
+3. handlebars
